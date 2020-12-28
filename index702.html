@@ -6,6 +6,10 @@
 		<script src="rop.js"></script>
 		<script src="userland.js"></script>
 		<script src="ps4.js"></script>
+		<script>
+if(document.cookie.indexOf('kex=0') >= 0)
+    document.location.href = 'index.html';
+</script>
 	</head>
 	<body bgcolor="#000000" text="#b6b1af" onload="go()">
 		<button id="input1" onfocus="handle2()"></button>
@@ -13,10 +17,6 @@
 		<button id="input3" onfocus="handle2()"></button>
 		<select id="select1">
 			<option value="value1">Value1</option>
-<script>
-if(document.cookie.indexOf('kex=0') >= 0)
-    document.location.href = 'index.html';
-</script>
 		</select>
 	</body>
 </html>
