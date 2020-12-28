@@ -1,0 +1,18 @@
+CACHE MANIFEST
+
+CACHE:
+./
+./index.html
+./int64.js
+./ps4.js
+./rop.js
+./userland.js
+./utils.js
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
+
+# Hash: NOHASH4u0001
